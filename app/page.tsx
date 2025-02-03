@@ -53,7 +53,7 @@ export default function Home() {
             half-remembered plot? weirdly specific scene?
           </p>
           <p className="text-base sm:text-lg text-zinc-400">
-            that show with the guy who does the thing? yeah, i'll find it.
+            that show with the guy who does the thing? yeah, i&apos;ll find it.
           </p>
         </div>
 
