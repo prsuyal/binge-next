@@ -77,6 +77,12 @@ async def search_shows(request: ShowRequest):
                                     "- Make connections between recommendations\n"
                                     "- Use casual, friendly language but do not add too much fluff; stay direct\n"
                                     "- Stay focused on why this specific show matches their request"
+                                    "- Do not put quotes around the show names. Be human and conversational, no one likes a robot"
+                                    "- Always refer to the person in second person (you, your, etc.)"
+                                    "- Keep the structure of each description varied, don't make them all the same and boring"
+                                    "- Emphasize the most important details and characters, maybe even actors if they're well-known"
+                                    "- Keep the descriptions short and to the point, but not too short that they're vague"
+                                    "- Don't start with something like 'if you like X, you'll like Y' unless it's really relevant. Be creative and engaging. They already know what they like you don't need to restate it. Just tell them why this show is a good fit for them"
                                 ),
                             },
                             {
