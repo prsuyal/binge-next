@@ -24,7 +24,7 @@ async def search_shows(request: ShowRequest):
             messages=[
                 {
                     "role": "system",
-                    "content": "You're a TV show expert. List 4 specific shows similar to what they're looking for. Return ONLY the show titles without any numbers or dashes. One show per line.",
+                    "content": "You're a TV show expert. List 3 specific shows similar to what they're looking for. Return ONLY the show titles without any numbers or dashes. One show per line.",
                 },
                 {"role": "user", "content": request.description},
             ],
