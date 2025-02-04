@@ -23,7 +23,7 @@ export default function Home() {
     setShows([])
     
     try {
-      const response = await fetch("/api/tv", {
+      const response = await fetch("/api/py/tv/search", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -60,7 +60,7 @@ export default function Home() {
         <div className="flex justify-center mb-12">
           <div className="relative w-full max-w-xl">
             <Input
-              placeholder="tell me what you're looking for..."
+              placeholder="so, what do you want to binge next?"
               className="w-full bg-zinc-800 border-zinc-700 text-white placeholder:text-zinc-500 pr-12"
               value={description}
               onChange={(e) => setDescription(e.target.value)}
